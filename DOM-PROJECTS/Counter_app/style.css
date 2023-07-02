@@ -1,0 +1,42 @@
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  outline: none;
+  border: none;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--black);
+}
+.counter {
+  font-size: 6.5rem;
+  font-weight: 800;
+  color: var(--black);
+}
+.btn {
+  color: var(--black);
+  border: 2px solid var(--black);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  letter-spacing: 2px;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: var(--black);
+  color: var(--white);
+}
