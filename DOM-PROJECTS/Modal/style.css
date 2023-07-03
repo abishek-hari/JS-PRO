@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.wrapper {
+  background-image: url(./Images/food-galler-img-6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: whitesmoke;
+  width: 35rem;
+  height: 15rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.box h1 {
+  font-size: 2.5rem;
+  color: rgb(41, 40, 66);
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding-bottom: 1.5rem;
+}
+.open-modal {
+  background: lightskyblue;
+  color: #fff;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.modal {
+  position: absolute;
+  width: 20rem;
+  height: 10rem;
+  background: #fff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+  visibility: hidden;
+}
+.modal-show {
+  visibility: visible;
+}
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  background: none;
+}

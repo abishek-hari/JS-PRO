@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+}
+.wrapper {
+  background-color: rgb(231, 242, 250);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+  border-bottom: 5px solid rgb(100, 194, 237);
+}
+.wrapper-card {
+  width: 35rem;
+  height: 27rem;
+  background: white;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.img-container img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+}
+.review-card {
+  margin: 1rem 0;
+}
+.review-card .author {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #333;
+}
+.review-card .job {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(100, 194, 237);
+  padding: 0.5rem 0;
+}
+.review-card .info {
+  color: #444;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.prev-btn {
+  background: none;
+  margin: 0 0.8rem;
+}
+.next-btn {
+  background: none;
+}
+.prev-btn i,
+.next-btn i {
+  color: rgb(100, 194, 237);
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.suprise-btn {
+  background-color: rgb(100, 194, 237);
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+}
