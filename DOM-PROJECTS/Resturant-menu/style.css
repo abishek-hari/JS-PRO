@@ -1,0 +1,123 @@
+:root {
+  --navy-blue: #102a42;
+  --chocolate: #c59d5f;
+  --light-brown: #d2a85f;
+  --light-blue: #617d98;
+  --dark-brown: #977b4e;
+  --white: #fff;
+  --background: #f1f5f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body {
+  background-color: var(--background);
+}
+.resturant-menu {
+  padding: 2rem 2.5rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--navy-blue);
+  text-align: center;
+  position: relative;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 46%;
+  width: 6rem;
+  height: 0.25rem;
+  background-color: var(--chocolate);
+}
+.button-container {
+  text-align: center;
+  margin: 2.5rem auto;
+}
+.filter-btn {
+  background: none;
+  padding: 0.5rem 0.9rem;
+  margin: 0 0.5rem;
+  border: 2px solid var(--dark-brown);
+  border-radius: 0.5rem;
+  color: var(--chocolate);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.filter-btn:hover {
+  background: var(--chocolate);
+  color: var(--white);
+}
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.menu-items {
+  width: 90vw;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  gap: 1.5rem;
+}
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dotted #666;
+}
+.menu-items img {
+  width: 230px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 5px solid var(--chocolate);
+}
+.menu-name {
+  font-size: 1.2rem;
+  color: var(--navy-blue);
+  letter-spacing: 2px;
+}
+.price {
+  font-size: 1.2rem;
+  color: var(--light-brown);
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.menu-desc {
+  padding: 0.6rem 0;
+}
+.menu-desc p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--light-blue);
+  letter-spacing: 1px;
+}
+
+@media (max-width: 532px) {
+  .resturant-menu {
+    padding: 1.5rem 2rem;
+  }
+  .menu-container {
+    grid-template-columns: 1fr;
+  }
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-items img {
+    max-width: 450px;
+  }
+}
