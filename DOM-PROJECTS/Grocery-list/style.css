@@ -1,0 +1,124 @@
+:root {
+  --background: #f1f5f8;
+  --dark-blue: #052c47;
+  --light-blue: #a5d5f8;
+  --red: #e66b6b;
+  --light-red: #fad4d4;
+  --green: #6be675;
+  --light-green: #d3f8d6;
+  --black: #333;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+body {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: flex-start;
+  margin-top: 5rem;
+}
+.grocery-section {
+  background: var(--white);
+  width: 550px;
+  max-width: 45rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.alert {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.alert-danger {
+  background: var(--light-red);
+  color: var(--red);
+}
+.alert-success {
+  background: var(--light-green);
+  color: var(--green);
+}
+h3 {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+  letter-spacing: 1px;
+}
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+#grocery {
+  width: 100%;
+  background: var(--background);
+  padding: 0.5rem 0.8rem;
+  color: var(--black);
+  font-size: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+.submit-btn {
+  padding: 0.5rem 0.8rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  background: var(--light-blue);
+  letter-spacing: 1px;
+}
+.grocery-container {
+  margin-top: 2rem;
+  visibility: hidden;
+}
+.show-container {
+  visibility: visible;
+}
+.grocery-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.grocery-items:hover {
+  background: var(--background);
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: var(--dark-blue);
+  letter-spacing: 2px;
+}
+.clear-btn {
+  margin-top: 1.5rem;
+  color: var(--red);
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  background: none;
+}
+.edit-btn {
+  color: var(--green);
+  cursor: pointer;
+  background: none;
+}
+.delete-btn {
+  color: var(--red);
+  cursor: pointer;
+  background: none;
+  margin-left: 0.5rem;
+}
