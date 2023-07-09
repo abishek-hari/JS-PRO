@@ -110,6 +110,7 @@ h3 {
   font-size: 0.9rem;
   font-weight: lighter;
   background: none;
+  cursor: pointer;
 }
 .edit-btn {
   color: var(--green);
