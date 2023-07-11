@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: aliceblue;
+}
+.wrapper {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  padding: 1rem;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: rgb(32, 157, 215);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0.7rem 0;
+}
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.deadline {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.deadline-format {
+  background: #333;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+}
+.deadline-format span {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
