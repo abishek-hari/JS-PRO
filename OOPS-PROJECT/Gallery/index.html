@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1>Gallery</h1>
+    <section class="gallery nature">
+      <img
+        src="images/g-1.jpg"
+        class="img"
+        title="nature-1"
+        data-id="1"
+        alt="nature"
+      />
+      <img
+        src="images/g-2.jpg"
+        class="img"
+        title="nature-1"
+        data-id="2"
+        alt="nature"
+      />
+      <img
+        src="images/p-2.jpg"
+        class="img"
+        title="nature-1"
+        data-id="3"
+        alt="nature"
+      />
+    </section>
+    <!-- city -->
+    <section class="gallery city">
+      <img
+        src="images/g-3.jpg"
+        class="img"
+        title="city-1"
+        data-id="1"
+        alt="city"
+      />
+      <img
+        src="images/g-4.jpg"
+        class="img"
+        title="city-2"
+        data-id="2"
+        alt="city"
+      />
+      <img
+        src="images/g-5.jpg"
+        class="img"
+        title="city-3"
+        data-id="3"
+        alt="city"
+      />
+      <img
+        src="images/g-6.jpg"
+        class="img"
+        title="city-4"
+        data-id="4"
+        alt="city"
+      />
+      <img
+        src="images/g-7.jpg"
+        class="img"
+        title="city-5"
+        data-id="5"
+        alt="city"
+      />
+      <img
+        src="images/g-8.jpg"
+        class="img"
+        title="city-6"
+        data-id="6"
+        alt="city"
+      />
+      <img
+        src="images/g-9.jpg"
+        class="img"
+        title="city-7"
+        data-id="7"
+        alt="city"
+      />
+    </section>
+
+    <!-- modal -->
+    <section class="modal">
+      <button class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-content">
+        <button class="prev-btn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="next-btn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <img src="images/p-2.jpg" class="main-img" alt="" />
+        <h3 class="image-name">modal name</h3>
+        <div class="modal-image">
+          <img
+            src="./images/g-3.jpg"
+            class="modal-img selected"
+            data-id="1"
+            alt="city"
+          />
+          <img
+            src="./images/g-4.jpg"
+            class="modal-img"
+            data-id="2"
+            alt="city"
+          />
+          <img
+            src="./images/g-5.jpg"
+            class="modal-img"
+            data-id="3"
+            alt="city"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
