@@ -1,0 +1,88 @@
+const products = [
+  {
+    id: "rec43w3ipXvP28vog",
+    title: "oxford shirts",
+    company: "oxford",
+    image: "images/f1.jpg",
+    price: 9.99,
+  },
+  {
+    id: "rec4f2RIftFCb7aHh",
+    title: "short-sleeve shirt",
+    company: "oxford",
+    image: "images/f2.jpg",
+    price: 79.99,
+  },
+  {
+    id: "rec8kkCmSiMkbkiko",
+    title: "cuban shirt",
+    company: "caressa",
+    image: "images/f3.jpg",
+    price: 25.99,
+  },
+  {
+    id: "recBohCqQsot4Q4II",
+    title: "fabric shirt",
+    company: "caressa",
+    image: "images/f4.jpg",
+    price: 45.99,
+  },
+  {
+    id: "recDG1JRZnbpRHpoy",
+    title: " polo shirt",
+    company: "polo",
+    image: "images/f5.jpg",
+    price: 6.99,
+  },
+  {
+    id: "recNWGyP7kjFhSqw3",
+    title: "polo fabric",
+    company: "polo",
+    image: "images/f6.jpg",
+    price: 69.99,
+  },
+  {
+    id: "recZEougL5bbY4AEx",
+    title: "nike flannel shirt",
+    company: "nike",
+    image: "images/n1.jpg",
+    price: 8.99,
+  },
+  {
+    id: "recjMK1jgTb2ld7sv",
+    title: "chambray",
+    company: "nike",
+    image: "images/n2.jpg",
+    price: 21.99,
+  },
+  {
+    id: "recmg2a1ctaEJNZhu",
+    title: "overshirt",
+    company: "addidas",
+    image: "images/n3.jpg",
+    price: 39.95,
+  },
+  {
+    id: "recvKMNR3YFw0bEt3",
+    title: "oxford button-down",
+    company: "oxford",
+    image: "images/n4.jpg",
+    price: 29.98,
+  },
+  {
+    id: "recxaXFy5IW539sgM",
+    title: "cowboy shirt",
+    company: "polo",
+    image: "images/n5.jpg",
+    price: 10.99,
+  },
+  {
+    id: "recyqtRglGNGtO4Q5",
+    title: "linen shirt",
+    company: "nike",
+    image: "images/n6.jpg",
+    price: 9.99,
+  },
+];
+
+export default products;
