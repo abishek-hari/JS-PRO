@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 2rem;
+  width: 80vw;
+  margin: 2rem auto;
+  box-shadow: 0.1rem 0.2rem 0.1rem rgba(92, 91, 91, 0.5);
+  border-radius: 0.5rem;
+}
+.btn {
+  background: #a52a2adc;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+.result {
+  padding-top: 1rem;
+}
