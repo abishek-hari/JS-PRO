@@ -20,6 +20,7 @@
   display: grid;
   place-items: center;
   text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 .slide h1 {
   font-size: 5rem;
